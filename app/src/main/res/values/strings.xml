@@ -1,7 +1,7 @@
 <resources>
-    <string name="app_name">EasyPay</string>
-    <string name="wx_pay">微信支付</string>
-    <string name="ali_pay">支付宝支付</string>
+    <string name="app_name">EasyScan</string>
+    <string name="wx_pay">微信扫一扫</string>
+    <string name="ali_pay">支付宝扫一扫</string>
     <string name="no_wx">无法跳转到微信，请检查您是否安装了微信！</string>
     <string name="no_ali">无法跳转到支付宝，请检查您是否安装了支付宝！</string>
 </resources>
