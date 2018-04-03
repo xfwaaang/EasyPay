@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btn_wx"
+        android:layout_margin="20dp"
+        android:background="@android:color/holo_orange_light"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/wx_pay"
+        />
+
+    <Button
+        android:id="@+id/btn_ali"
+        android:background="@android:color/holo_orange_dark"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_below="@id/btn_wx"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ali_pay"
+        />
+</RelativeLayout>
